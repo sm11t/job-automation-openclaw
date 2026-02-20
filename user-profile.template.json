@@ -1,0 +1,89 @@
+{
+  "personal": {
+    "firstName": "YOUR_FIRST_NAME",
+    "lastName": "YOUR_LAST_NAME",
+    "fullName": "YOUR_FULL_NAME",
+    "email": "your.email@example.com",
+    "phone": "555-555-5555",
+    "linkedIn": "https://linkedin.com/in/YOUR_PROFILE",
+    "github": "https://github.com/YOUR_GITHUB",
+    "portfolio": "https://YOUR_PORTFOLIO.com",
+    "address": {
+      "street": "",
+      "city": "Your City",
+      "state": "Your State",
+      "stateCode": "ST",
+      "zip": "00000",
+      "country": "United States"
+    },
+    "authorization": {
+      "usWorkAuthorization": true,
+      "requiresVisa": false,
+      "citizenship": "YOUR_STATUS"
+    }
+  },
+  "education": [
+    {
+      "school": "Your University",
+      "schoolFull": "Your University, City",
+      "degree": "Bachelor of Science",
+      "major": "Computer Science",
+      "minor": "",
+      "gpa": "3.5",
+      "startDate": "2022-08",
+      "endDate": "2026-05",
+      "graduationYear": "2026",
+      "graduationMonth": "May",
+      "current": true,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "company": "Company Name",
+      "title": "Your Title",
+      "startDate": "2024-05",
+      "endDate": "2024-08",
+      "current": false,
+      "location": "City, State",
+      "description": "Brief description of role",
+      "bullets": [
+        "Achievement 1",
+        "Achievement 2",
+        "Achievement 3"
+      ]
+    }
+  ],
+  "skills": {
+    "languages": ["Python", "Java", "JavaScript"],
+    "frameworks": ["React", "Node.js", "FastAPI"],
+    "tools": ["Git", "Docker", "AWS"],
+    "ml": ["PyTorch", "TensorFlow"],
+    "categories": {
+      "backend": ["Python", "Java", "Node.js"],
+      "frontend": ["React", "TypeScript"],
+      "database": ["PostgreSQL", "MongoDB"],
+      "cloud": ["AWS", "GCP"]
+    }
+  },
+  "preferences": {
+    "targetRoles": ["Software Engineer", "Backend Engineer"],
+    "experienceLevel": ["New Grad", "Entry Level"],
+    "workType": ["Full-time"],
+    "location": ["Remote", "Hybrid", "Onsite"],
+    "targetCompanies": {
+      "dream": ["Company1", "Company2"],
+      "interested": ["Company3", "Company4"]
+    }
+  },
+  "documents": {
+    "resume": "/path/to/your/resume.pdf",
+    "coverLetter": "",
+    "transcripts": ""
+  },
+  "customAnswers": {
+    "whyCompany": "Template answer for why interested in company",
+    "diversity": "Template diversity statement",
+    "challengingSituation": "Template STAR answer"
+  }
+}
